@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 function TravelGrant (){
   return(
     <div>
-      <h1>Travel Grant</h1>
+     
     </div>
   )
 }

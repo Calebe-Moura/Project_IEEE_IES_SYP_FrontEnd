@@ -4,11 +4,56 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 body {
   min-height: 100vh;
   width: 100vw;
-  background: linear-gradient(180deg, #FBFFFF 10%, #DCEAF7 20%, #C1E5F5 100%);
+  background: linear-gradient(180deg, #FBFFFF 20%, #DCEAF7 30%, #C1E5F5 100%);
 }
+
+header {
+  padding: 16px 32px;
+}
+
+@keyframes shadow-pulse {
+  0% {
+    box-shadow: 0 4px 6px rgba(33, 95, 154, 0.6);
+  }
+  10% {
+    box-shadow: 0 6px 8px rgba(33, 95, 154, 0.55);
+  }
+  20% {
+    box-shadow: 0 8px 10px rgba(33, 95, 154, 0.5);
+  }
+  30% {
+    box-shadow: 0 10px 12px rgba(33, 95, 154, 0.4);
+  }
+  40% {
+    box-shadow: 0 12px 16px rgba(33, 95, 154, 0.3);
+  }
+  50% {
+    box-shadow: 0 16px 22px rgba(33, 95, 154, 0.2);
+  }
+  60% {
+    box-shadow: 0 12px 16px rgba(33, 95, 154, 0.3);
+  }
+  70% {
+    box-shadow: 0 10px 12px rgba(33, 95, 154, 0.4);
+  }
+  80% {
+    box-shadow: 0 8px 10px rgba(33, 95, 154, 0.5);
+  }
+  90% {
+    box-shadow: 0 6px 8px rgba(33, 95, 154, 0.55);
+  }
+  100% {
+    box-shadow: 0 4px 6px rgba(33, 95, 154, 0.6);
+  }
+}
+
+
+#bnt-register{
+  padding: 8px 16px;
+}
+

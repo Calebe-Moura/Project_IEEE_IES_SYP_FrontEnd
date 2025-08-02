@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 function ApplyForHost (){
   return(
     <div>
-      <h1>Apply For Host</h1>
+      
     </div>
   )
 }
