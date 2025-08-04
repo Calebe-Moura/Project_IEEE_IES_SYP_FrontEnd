@@ -4,16 +4,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat';
 }
 
 body {
   min-height: 100vh;
   width: 100vw;
   background: linear-gradient(180deg, #FBFFFF 20%, #DCEAF7 30%, #C1E5F5 100%);
+  
 }
 
 header {
   padding: 16px 32px;
+  line-height: 24px;
 }
 
 @keyframes shadow-pulse {
@@ -52,8 +55,8 @@ header {
   }
 }
 
-
 #bnt-register{
   padding: 8px 16px;
+  margin-right: 40px;
 }
 

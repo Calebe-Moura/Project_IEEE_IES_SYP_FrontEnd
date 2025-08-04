@@ -1,22 +1,39 @@
 import Link from 'next/link';
 import '../../app/globals.css';
-import ButtonDropdown from './Button_dropdown';
+import MenuPopupState from './Button_Navbar';
+
 
 export function Navbar() {
   return (
-    <nav className="hidden items-center gap-6 lg:flex mr-10">
-      <Link href="/Home" className="text-gray-500 hover:text-black text-xl flex items-center gap-1">
+    <nav className="hidden items-center gap-6 lg:flex mr-10 px-4 py-2">
+      <Link href="/" className="text-gray-500 hover:text-black text-xl flex items-center gap-1">
         Home
       </Link>
 
       <Link href="/About_us" className="text-gray-500 hover:text-black text-xl flex items-center gap-1">
         About Us
       </Link>
-
-      <ButtonDropdown label="Program" />
-
-      <ButtonDropdown label="Venue" />
       
+      
+      <MenuPopupState
+        label_bnt="Program"
+        items={[
+          { label: 'Scheduler', url: '/Program' },
+          { label: 'Speakers', url: '/Speakers' },
+          { label: 'Poster Session', url: '/Poster_Session' },
+        ]}
+        
+      />
+
+       <MenuPopupState
+        label_bnt="Venue"
+        items={[
+          { label: 'Congress Venue', url: '/Venue' },
+          { label: 'Visa Information', url: '/Visa_Information' },
+                             
+        ]}
+      /> 
+
       <Link href="/Travel_Grant" className="text-gray-500 hover:text-black text-xl flex items-center gap-1">
         Travel Grant
       </Link>
@@ -25,7 +42,7 @@ export function Navbar() {
         Apply for 2026 Host
       </Link>
 
-      <Link
+      <a
         target="_blank"
         rel="noopener noreferrer"
         href="https://registration.ies-syp.ieee.eventizer.io/#/form-choice/996"
@@ -39,7 +56,7 @@ export function Navbar() {
         id='bnt-register'
       >
         Register Now
-      </Link>
+      </a>
     </nav>
   );
 }

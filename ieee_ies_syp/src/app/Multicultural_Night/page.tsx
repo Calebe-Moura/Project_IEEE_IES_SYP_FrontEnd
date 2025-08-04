@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Home", 
+  title: "Multicultural Night", 
   description: "",
 };
 
-function Home (){
+function Multicultural_Night (){
   return(
     <div>
       
@@ -13,4 +13,4 @@ function Home (){
   )
 }
 
-export default Home;
+export default Multicultural_Night;
