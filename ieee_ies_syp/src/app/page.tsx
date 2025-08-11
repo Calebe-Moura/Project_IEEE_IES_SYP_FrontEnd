@@ -1,16 +1,17 @@
 import type { Metadata } from "next";
+import Home from "./Home/page";
+
 
 export const metadata: Metadata = {
-  title: "IEEE IES SYP", 
+  title: "IEEE IES SYP",
   description: "",
 };
 
-function Home (){
-  return(
-    <div>
-      
-    </div>
-  )
+
+function Page() {
+  return (
+    <Home/>
+  );
 }
 
-export default Home;
+export default Page;

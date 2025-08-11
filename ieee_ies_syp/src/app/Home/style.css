@@ -1,0 +1,76 @@
+@font-face {
+    font-family: Persian;
+    src: url('../../fonts/PersianSwordDemoRegular.ttf');
+}
+
+@font-face {
+    font-family: FunWork;
+    src: url('../../fonts/Funwork.ttf');
+}
+
+/* Container geral */
+.titulo-principal {
+  text-align: center;
+  color: #000;
+  font-family: "Persian", sans-serif;
+}
+
+.titulo-principal h1 {
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Primeira linha: IEEE IES SYP */
+.titulo-principal .linha1,
+.titulo-principal .linha2 {
+  font-family: "Persian", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+/* Terceira linha: Congress + edição */
+.titulo-principal .linha3 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 0.5rem;
+  font-family: "Persian", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: -0.01562em;
+}
+
+/* Parte do número e ND */
+.numero {
+  font-family: "FunWork", sans-serif;
+  font-size: 48px;
+  font-weight: 800;
+  color: #00B50C;
+  line-height: 1;
+  font-style: italic;
+}
+
+.nd {
+  font-family: "FunWork", sans-serif;
+  position: relative;
+  top: -0.6em; /* Sobe o ND */
+  font-size: 48px; /* Escala proporcional ao número */
+  font-weight: 800;
+  color: #00B50C;
+  font-style: italic;
+}
+
+/* Edition */
+.edition {
+  font-family: "FunWork", sans-serif;
+  font-size: 48px;
+  font-weight: 800;
+  color: #00B50C;
+  line-height: 1;
+  font-style: italic;
+}

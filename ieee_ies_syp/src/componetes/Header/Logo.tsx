@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import LogoImg from '../../../public/ies_syp_logo.png';
+import LogoImg from '../../assets/Logos/ies_syp_logo.png';
 import Link from 'next/link';
 
 export function Logo() {

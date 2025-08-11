@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import '../../app/globals.css';
+import './style.css';
 import MenuPopupState from './Button_Navbar';
 
 
@@ -46,14 +46,9 @@ export function Navbar() {
         target="_blank"
         rel="noopener noreferrer"
         href="https://registration.ies-syp.ieee.eventizer.io/#/form-choice/996"
-        className="inline-flex items-center justify-center rounded-md bg-[#215F9A] px-4 py-2 text-sm font-medium text-white shadow-md hover:shadow-lg transition-all duration-300 animate-[shadow-pulse_2s_ease-in-out_infinite] hover:animate-none"
-        style={{
-          animationName: 'shadow-pulse',
-          animationDuration: '4s',
-          animationTimingFunction: 'ease-in-out',
-          animationIterationCount: 'infinite',
-        }}
-        id='bnt-register'
+        className="inline-flex items-center justify-center rounded-md bg-[#00B50C] px-4 py-2 text-sm font-medium text-white shadow-md hover:shadow-lg transition-all duration-300 animate-[shadow-pulse_2s_ease-in-out_alternate_infinite] hover:animate-none"
+        
+        id ='bnt-register'
       >
         Register Now
       </a>
