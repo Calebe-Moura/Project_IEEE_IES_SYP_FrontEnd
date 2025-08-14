@@ -1,76 +1,123 @@
 @font-face {
-    font-family: Persian;
-    src: url('../../fonts/PersianSwordDemoRegular.ttf');
+  font-family: "Persian";
+  src: url('../../fonts/PersianSwordDemoRegular.ttf');
 }
 
 @font-face {
-    font-family: FunWork;
-    src: url('../../fonts/Funwork.ttf');
+  font-family: "Funwork";
+  src: url('../../fonts/Funwork.ttf');
 }
 
-/* Container geral */
-.titulo-principal {
-  text-align: center;
-  color: #000;
+.font-persian {
   font-family: "Persian", sans-serif;
 }
 
-.titulo-principal h1 {
-  margin: 0;
-  padding: 0;
-  line-height: 1.2;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+.text__highlight {
+  font-family: "Funwork", sans-serif;
+
 }
 
-/* Primeira linha: IEEE IES SYP */
-.titulo-principal .linha1,
-.titulo-principal .linha2 {
-  font-family: "Persian", sans-serif;
-  font-size: 48px;
-  font-weight: 700;
-  letter-spacing: 0.05em;
-}
+.hero-section {
 
-/* Terceira linha: Congress + edição */
-.titulo-principal .linha3 {
+  opacity: 1;
   display: flex;
+  align-items: center;
   justify-content: center;
-  align-items: flex-end;
-  gap: 0.5rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  background: linear-gradient(to bottom,
+      rgba(255, 255, 255, 0.689),
+      #bae6fd,
+      #ffffff);
+  height: 100lvh;
+}
+
+.hero-bg {
+  opacity: 1;
+  transform: none;
+  background-repeat: repeat;
+  background-size: initial;
+  background-image: url('../../assets/imagens/asset.webp');
+  height: 100%;
+}
+
+.flex.justify-center.items-center {
+  opacity: 1;
+  transform: none;
+}
+
+.linha1 {
+  margin-bottom: 32px;
+  font-size: 48px;
+  height: fit-content;
+}
+
+.linha2 {
+  margin-bottom: 8px;
+  font-size: 48px;
+  height: fit-content;
+}
+
+
+.linha3 {
+  padding-top: 16px;
+  height: fit-content;
+  justify-content: center;
+  font-size: clamp(1.5rem, 5vw, 48px); /* tamanho flexível */
+  margin-bottom: 8px;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap; /* garante quebra */
+  text-align: center;
+}
+
+.linha3p1 {
+  height: fit-content;
+  font-size: clamp(1.5rem, 5vw, 48px);
+  margin-bottom: 8px;
+  max-width: 100%;
+  word-break: break-word;
+}
+
+.linha3p2 {
+  display: block;
+  align-items: baseline;
+  flex-wrap: wrap;
+  max-width: 100%;
+  justify-content: center;
+}
+
+.linha3p2p1,
+.linha3p2p2,
+.linha3p2p3 {
+  font-weight: 800;
+  font-style: italic;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-color: #00B50C;
+  display: inline-block;
+  margin-bottom: 8px;
+  z-index: 1;
+  white-space: normal;
+}
+
+.linha3p2p1 {
+  font-size: clamp(1.5rem, 5vw, 48px);
+  font-family: "Funwork", sans-serif;
+}
+
+.linha3p2p2 {
+  font-size: clamp(1rem, 4vw, 36px);
   font-family: "Persian", sans-serif;
-  font-size: 48px;
-  font-weight: 700;
-  letter-spacing: -0.01562em;
+  letter-spacing: -0.9px;
+  line-height: 1.2;
+  vertical-align: super;
+  word-spacing: 7.2px;
 }
 
-/* Parte do número e ND */
-.numero {
-  font-family: "FunWork", sans-serif;
-  font-size: 48px;
-  font-weight: 800;
-  color: #00B50C;
-  line-height: 1;
-  font-style: italic;
+.linha3p2p3 {
+  font-size: clamp(1.5rem, 5vw, 48px);
+  font-family: "Persian", sans-serif;
 }
 
-.nd {
-  font-family: "FunWork", sans-serif;
-  position: relative;
-  top: -0.6em; /* Sobe o ND */
-  font-size: 48px; /* Escala proporcional ao número */
-  font-weight: 800;
-  color: #00B50C;
-  font-style: italic;
-}
-
-/* Edition */
-.edition {
-  font-family: "FunWork", sans-serif;
-  font-size: 48px;
-  font-weight: 800;
-  color: #00B50C;
-  line-height: 1;
-  font-style: italic;
-}
