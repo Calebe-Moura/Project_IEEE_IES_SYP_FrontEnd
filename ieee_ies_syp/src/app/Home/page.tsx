@@ -78,7 +78,7 @@ function Home() {
                         </span>
                     </div>
 
-                    {/* Contador */}
+                   
                     <div className="flex justify-center gap-6">
                         {[
                             { label: "days", value: tempoRestante.dias },

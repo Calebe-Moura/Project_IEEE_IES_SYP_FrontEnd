@@ -14,7 +14,6 @@
 
 .text__highlight {
   font-family: "Funwork", sans-serif;
-
 }
 
 .hero-section {
@@ -63,11 +62,10 @@
   padding-top: 16px;
   height: fit-content;
   justify-content: center;
-  font-size: clamp(1.5rem, 5vw, 48px); /* tamanho flexível */
-  margin-bottom: 8px;
+  font-size: clamp(1.5rem, 5vw, 48px);
   z-index: 1;
   display: flex;
-  flex-wrap: wrap; /* garante quebra */
+  flex-wrap: wrap;
   text-align: center;
 }
 
@@ -92,13 +90,9 @@
 .linha3p2p3 {
   font-weight: 800;
   font-style: italic;
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  background-color: #00B50C;
+  color: #00B50C;
   display: inline-block;
   margin-bottom: 8px;
-  z-index: 1;
   white-space: normal;
 }
 
@@ -110,10 +104,9 @@
 .linha3p2p2 {
   font-size: clamp(1rem, 4vw, 36px);
   font-family: "Persian", sans-serif;
-  letter-spacing: -0.9px;
   line-height: 1.2;
   vertical-align: super;
-  word-spacing: 7.2px;
+  
 }
 
 .linha3p2p3 {
