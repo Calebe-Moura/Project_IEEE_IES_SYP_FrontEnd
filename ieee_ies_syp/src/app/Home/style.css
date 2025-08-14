@@ -62,8 +62,7 @@
   padding-top: 16px;
   height: fit-content;
   justify-content: center;
-  font-size: clamp(1.5rem, 5vw, 48px);
-  z-index: 1;
+  font-size: 48px;
   display: flex;
   flex-wrap: wrap;
   text-align: center;
@@ -71,7 +70,7 @@
 
 .linha3p1 {
   height: fit-content;
-  font-size: clamp(1.5rem, 5vw, 48px);
+  font-size: 48px;
   margin-bottom: 8px;
   max-width: 100%;
   word-break: break-word;
@@ -97,20 +96,18 @@
 }
 
 .linha3p2p1 {
-  font-size: clamp(1.5rem, 5vw, 48px);
+  font-size: 48px;
   font-family: "Funwork", sans-serif;
 }
 
 .linha3p2p2 {
-  font-size: clamp(1rem, 4vw, 36px);
+  font-size: 36px;
   font-family: "Persian", sans-serif;
-  line-height: 1.2;
   vertical-align: super;
-  
+
 }
 
 .linha3p2p3 {
-  font-size: clamp(1.5rem, 5vw, 48px);
+  font-size: 48px;
   font-family: "Persian", sans-serif;
 }
-
