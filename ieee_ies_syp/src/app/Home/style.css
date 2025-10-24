@@ -1,113 +1,34 @@
-@font-face {
-  font-family: "Persian";
-  src: url('../../fonts/PersianSwordDemoRegular.ttf');
+.conteiner {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../assets/imagens/asset.webp");
+  flex-direction: column;
+  align-items: center;
 }
-
+@font-face {
+  font-family: "PersianSword";
+  src: url("../../assets/fonts/PersianSwordDemoRegular.ttf");
+}
 @font-face {
   font-family: "Funwork";
-  src: url('../../fonts/Funwork.ttf');
+  src: url("../../assets/fonts/Funwork.ttf");
 }
 
-.font-persian {
-  font-family: "Persian", sans-serif;
-}
-
-.text__highlight {
-  font-family: "Funwork", sans-serif;
-}
-
-.hero-section {
-
-  opacity: 1;
+.linha1,
+.linha2,
+.linha3,
+.linha3-pt1,
+.linha3-pt3,
+.linha3-pt4 {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-  background: linear-gradient(to bottom,
-      rgba(255, 255, 255, 0.689),
-      #bae6fd,
-      #ffffff);
-  height: 100lvh;
-}
-
-.hero-bg {
-  opacity: 1;
-  transform: none;
-  background-repeat: repeat;
-  background-size: initial;
-  background-image: url('../../assets/imagens/asset.webp');
-  height: 100%;
-}
-
-.flex.justify-center.items-center {
-  opacity: 1;
-  transform: none;
-}
-
-.linha1 {
-  margin-bottom: 32px;
   font-size: 48px;
-  height: fit-content;
+  font-family: PersianSword;
+  font-weight: 700;
 }
 
-.linha2 {
-  margin-bottom: 8px;
-  font-size: 48px;
-  height: fit-content;
+.linha3-pt2{
+    font-family: 'Funwork';
+    font-size: 56px;
 }
 
-
-.linha3 {
-  padding-top: 16px;
-  height: fit-content;
-  justify-content: center;
-  font-size: 48px;
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-}
-
-.linha3p1 {
-  height: fit-content;
-  font-size: 48px;
-  margin-bottom: 8px;
-  max-width: 100%;
-  word-break: break-word;
-}
-
-.linha3p2 {
-  display: block;
-  align-items: baseline;
-  flex-wrap: wrap;
-  max-width: 100%;
-  justify-content: center;
-}
-
-.linha3p2p1,
-.linha3p2p2,
-.linha3p2p3 {
-  font-weight: 800;
-  font-style: italic;
-  color: #00B50C;
-  display: inline-block;
-  margin-bottom: 8px;
-  white-space: normal;
-}
-
-.linha3p2p1 {
-  font-size: 48px;
-  font-family: "Funwork", sans-serif;
-}
-
-.linha3p2p2 {
-  font-size: 36px;
-  font-family: "Persian", sans-serif;
-  vertical-align: super;
-
-}
-
-.linha3p2p3 {
-  font-size: 48px;
-  font-family: "Persian", sans-serif;
-}

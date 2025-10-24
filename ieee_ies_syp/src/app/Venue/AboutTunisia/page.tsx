@@ -1,16 +1,16 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Visa Information", 
+  title: "About Tunisia", 
   description: "",
 };
 
-function VisaInformation (){
+function AboutTunisia (){
   return(
     <div>
-     
+      
     </div>
   )
 }
 
-export default VisaInformation;
+export default AboutTunisia;

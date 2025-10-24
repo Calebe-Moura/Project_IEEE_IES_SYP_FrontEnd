@@ -1,16 +1,16 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Visa Information", 
+  title: "Schedule", 
   description: "",
 };
 
-function VisaInformation (){
+function Schedule (){
   return(
     <div>
-     
+      
     </div>
   )
 }
 
-export default VisaInformation;
+export default Schedule;

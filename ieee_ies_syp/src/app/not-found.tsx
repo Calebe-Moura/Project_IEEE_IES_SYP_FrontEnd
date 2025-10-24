@@ -1,8 +1,10 @@
+import Link from 'next/link';
+
 export default function NotFound(){
     return (
         <div>
             <h1>Page 404 Not Found!</h1>
-            <a href="/">Back page home</a>
+            <Link href="/">Back page home</Link>
         </div>
     )
 }
